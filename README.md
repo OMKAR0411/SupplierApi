@@ -14,12 +14,12 @@ curl -X POST http://localhost:8080/api/supplier
 
 Json Input
 {
-  "company_name": "Makersharks Manufacturing",
-  "website": "http://makersharks.com",
-  "location": "San Francisco",
-  "nature_of_business": "Technology",
-  "manufacturing_processes": "3DPRINTING"
-}
+    "companyName": "Makersharks Manufacturing",
+    "website": "http://makersharks.com",
+    "location": "San Francisco",
+    "natureOfBusiness": "Technology",
+    "manufacturingProcesses": "3DPRINTING"
+  }
 
 you can do-:ADD More of this Type of input to see the search result.
 
