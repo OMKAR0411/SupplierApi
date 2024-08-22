@@ -18,7 +18,7 @@ Json Input
   "website": "http://makersharks.com",
   "location": "San Francisco",
   "nature_of_business": "Technology",
-  "manufacturing_processes": "Electronics Assembly"
+  "manufacturing_processes": "3DPRINTING"
 }
 
 you can do-:ADD More of this Type of input to see the search result.
@@ -26,7 +26,7 @@ you can do-:ADD More of this Type of input to see the search result.
 
 End Point
 GetMapping
-curl -X GET "http://localhost:8080/api/supplier/San%20Francisco/Technology/Electronics%20Assembly"
+curl -X GET "http://localhost:8080/api/supplier/San%20Francisco/Technology/3DPRINTING"
 
 
 
