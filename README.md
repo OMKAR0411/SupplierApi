@@ -15,7 +15,7 @@ curl -X POST http://localhost:8080/api/supplier
 Json Input
 {
   "company_name": "Makersharks Manufacturing",
-  "website": "http://markersharks.com",
+  "website": "http://makersharks.com",
   "location": "San Francisco",
   "nature_of_business": "Technology",
   "manufacturing_processes": "Electronics Assembly"
