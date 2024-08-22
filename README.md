@@ -14,12 +14,14 @@ curl -X POST http://localhost:8080/api/supplier
 
 Json Input
 {
-  "company_name": "XYZ Manufacturing",
-  "website": "http://xyzmanufacturing.com",
+  "company_name": "Markersharks Manufacturing",
+  "website": "http://markersharks.com",
   "location": "San Francisco",
   "nature_of_business": "Technology",
   "manufacturing_processes": "Electronics Assembly"
 }
+
+you can do-:ADD More of this Type of input to see the search result.
 
 
 End Point
