@@ -41,6 +41,9 @@ public class SupplierController {
 
         // Perform search and return results
         List<Supplier> suppliers = supplierService.findByCriteria(location, natureOfBusiness, manufacturingProcesses);
+        if (suppliers.isEmpty()) {
+            throw new RuntimeException("No suppliers found for the provided criteria.");
+        }
         return new ResponseEntity<>(suppliers, HttpStatus.OK);
     }
 
